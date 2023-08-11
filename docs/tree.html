@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penetration Testing Execution Standard (PTES) &mdash; The Penetration Testing Execution Standard v1.0</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Penetration Testing Execution Standard v2.0" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#">
+            
+              <img src="_static/ptes.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">The Penetration Testing Execution Standard v2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preengagement_interactions.html">Pre-engagement Interactions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html">Intelligence Gathering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">Threat Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Vulnerability Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Post Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Penetration Testing Execution Standard v2.0</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Penetration Testing Execution Standard (PTES)</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="penetration-testing-execution-standard-ptes">
+<h1>Penetration Testing Execution Standard (PTES)<a class="headerlink" href="#penetration-testing-execution-standard-ptes" title="Permalink to this heading">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">The Penetration Testing Execution Standard v2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preengagement_interactions.html">Pre-engagement Interactions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#introduction-to-scope">Introduction to Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#metrics-for-time-estimation">Metrics for Time Estimation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#scoping-meeting">Scoping Meeting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#additional-support-based-on-hourly-rate">Additional Support Based on Hourly Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#questionnaires">Questionnaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#general-questions">General Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#scope-creep">Scope Creep</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#specify-start-and-end-dates">Specify Start and End Dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#specify-ip-ranges-and-domains">Specify IP Ranges and Domains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#dealing-with-third-parties">Dealing with Third Parties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#define-acceptable-social-engineering-pretexts">Define Acceptable Social Engineering Pretexts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#dos-testing">DoS Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#payment-terms">Payment Terms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#goals">Goals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#establish-lines-of-communication">Establish Lines of Communication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#emergency-contact-information">Emergency Contact Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#rules-of-engagement">Rules of Engagement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preengagement_interactions.html#capabilities-and-technology-in-place">Capabilities and Technology in Place</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="intelligence_gathering.html">Intelligence Gathering</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#id2">Intelligence Gathering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#target-selection">Target Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#osint">OSINT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#covert-gathering">Covert Gathering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#footprinting">Footprinting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intelligence_gathering.html#identify-protection-mechanisms">Identify Protection Mechanisms</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="threat_modeling.html">Threat Modeling</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#business-asset-analysis">Business Asset Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#business-process-analysis">Business Process Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#threat-agents-community-analysis">Threat Agents/Community Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#threat-capability-analysis">Threat Capability Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#motivation-modeling">Motivation Modeling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="threat_modeling.html#finding-relevant-news-of-comparable-organizations-being-compromised">Finding relevant news of comparable Organizations being compromised</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability_analysis.html">Vulnerability Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vulnerability_analysis.html#testing">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vulnerability_analysis.html#active">Active</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vulnerability_analysis.html#passive">Passive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vulnerability_analysis.html#validation">Validation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vulnerability_analysis.html#research">Research</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exploitation.html">Exploitation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#countermeasures">Countermeasures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#evasion">Evasion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#precision-strike">Precision Strike</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#customized-exploitation-avenue">Customized Exploitation Avenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#tailored-exploits">Tailored Exploits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#zero-day-angle">Zero-Day Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#example-avenues-of-attack">Example Avenues of Attack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exploitation.html#overall-objective">Overall Objective</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="post_exploitation.html">Post Exploitation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#rules-of-engagement">Rules of Engagement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#infrastructure-analysis">Infrastructure Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#pillaging">Pillaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#high-value-profile-targets">High Value/Profile Targets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#data-exfiltration">Data Exfiltration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#persistence">Persistence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#further-penetration-into-infrastructure">Further Penetration Into Infrastructure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post_exploitation.html#cleanup">Cleanup</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reporting.html">Reporting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reporting.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reporting.html#report-structure">Report Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reporting.html#the-executive-summary">The Executive Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reporting.html#technical-report">Technical Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-what-is-this-penetration-testing-execution-standard"><strong>Q</strong>: What is this “Penetration Testing Execution Standard”?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-who-is-involved-with-this-standard"><strong>Q</strong>: Who is involved with this standard?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-is-this-going-to-be-a-formal-standard"><strong>Q</strong>: Is this going to be a formal standard?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-is-the-standard-going-to-include-all-possible-penetration-test-scenarios"><strong>Q</strong>: Is the standard going to include all possible penetration test scenarios?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-is-this-effort-going-to-standardize-the-reporting-as-well"><strong>Q</strong>: Is this effort going to standardize the reporting as well?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#q-who-is-the-intended-audience-for-this-standard-project"><strong>Q</strong>: Who is the intended audience for this standard/project?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-right" title="The Penetration Testing Execution Standard v2.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023.
+      <span class="lastupdated">Last updated on 10. August 2023.
+      </span></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
