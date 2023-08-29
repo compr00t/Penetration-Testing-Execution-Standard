@@ -17,7 +17,7 @@ the industry.
 **Q**: Who is involved with this standard?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**A**: The initial standard was developped in 2011 by the following group of information security practitioners from all areas of the industry (I.e. Financial Institutions, Service Providers, Security Vendors):
+**A**: The initial standard was developed in 2011 by the following group of information security practitioners from all areas of the industry (financial institutions, service providers, security vendors):
 
 -  `Chris Nickerson <https://twitter.com/indi303>`__, CEO - Lares Consulting
 -  `Dave Kennedy <https://twitter.com/hackingdave>`__, President/CEO - TrustedSec
@@ -40,9 +40,9 @@ the industry.
 -  `Wim Remes <https://twitter.com/wimremes>`__, Security Consultant - EY Belgium
 -  `Rick Hayes <https://twitter.com/isdpodcast>`__, Force Practice Lead - TrustedSec
 
-The standard was then later updated by the following group of people as the initial version was not actively maintained anymore:
+The standard was then later updated by the following group of information security practitioners as the initial version was not maintained anymore:
 
--  `Patrick Schmid <https://twitter.com/compr00t>`__, Head of Security Testing & Architecture - Redguard AG
+-  `Patrick Schmid <https://www.linkedin.com/in/schmidpatrick/>`__, Head of Security Testing & Architecture - Redguard AG
 
 **Q**: Is this going to be a formal standard?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
